@@ -1,0 +1,33 @@
+# Environment Variables
+.env
+.env.*
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Keras model checkpoints and logs
+*.h5
+*.ckpt
+checkpoints/
+logs/
+tensorboard/
+
+# VSCode project files
+.vscode/
+
+# Mac OS system files
+.DS_Store
+
+# Ignore compiled models and temporary outputs
+model/
+output/
+
+# HDF5 binary data formats
+*.hdf5
+
+# Checkpoints and intermediate training files
+*.ckpt.*
+
+# Tensorboard log files
+tensorboard_logs/
+
